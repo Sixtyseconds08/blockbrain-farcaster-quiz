@@ -1,3 +1,218 @@
+Home
+
+73aa755e-2caf-4b3c-bf90-056b15a543f7
+
+right arrow
+Buy Credits
+
+
+User Avatar
+
+info
+
+code
+Code
+
+preview
+Preview
+
+Deploy
+Deploy
+00:19:34.808 Running build in Washington, D.C., USA (East) – iad1
+
+00:19:34.809 Build machine configuration: 2 cores, 8 GB
+
+00:19:34.831 Cloning github.com/sixtyseconds5/blockbrain-farcaster-quiz (Branch: main, Commit: 86e325d)
+
+00:19:35.069 Previous build caches not available
+
+00:19:35.201 Cloning completed: 370.000ms
+
+00:19:35.502 Running "vercel build"
+
+00:19:35.914 Vercel CLI 48.1.6
+
+00:19:36.099 WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+
+00:19:36.561 Installing dependencies...
+
+00:20:36.100 npm warn deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+
+00:20:36.162 npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+
+00:20:36.977 npm warn deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+
+00:20:37.205 npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+
+00:20:37.356 npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+
+00:20:37.357 npm warn deprecated
+
+00:20:37.357 npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+00:20:37.514 npm warn deprecated workbox-google-analytics@6.6.0: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
+
+00:20:37.975 npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+
+00:20:37.988 npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+
+00:20:37.995 npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+
+00:20:38.252 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+
+00:20:38.328 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+00:20:38.581 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+
+00:20:39.214 npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+
+00:20:39.346 npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+
+00:20:39.616 npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+
+00:20:39.617 npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+
+00:20:39.632 npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+
+00:20:39.633 npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+
+00:20:39.638 npm warn deprecated @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+
+00:20:41.956 npm warn deprecated source-map@0.8.0-beta.0: The work that was done in this beta branch won't be included in future versions
+
+00:20:42.026 npm warn deprecated @babel/plugin-proposal-private-property-in-object@7.21.11: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
+
+00:20:42.198 npm warn deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+
+00:20:43.863 npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+00:20:46.120
+
+00:20:46.121 added 1329 packages in 1m
+
+00:20:46.122
+
+00:20:46.122 270 packages are looking for funding
+
+00:20:46.122 run `npm fund` for details
+
+00:20:46.191 Running "npm run build"
+
+00:20:46.301
+
+00:20:46.301 > blockbrain-quiz@0.1.0 build
+
+00:20:46.301 > react-scripts build
+
+00:20:46.301
+
+00:20:47.276 Creating an optimized production build...
+
+00:20:51.976 Failed to compile.
+
+00:20:51.976
+
+00:20:51.976 Syntax error: /vercel/path0/src/App.css Unexpected } (4:1)
+
+00:20:51.976 [90m 2 | [39m margin[33m:[39m 0[33m;[39m
+
+00:20:51.976 [90m 3 | [39m font-size[33m:[39m 1.2rem[33m;[39m
+
+00:20:51.977 [1m[31m>[39m[22m[90m 4 | [39m[33m}[39m
+
+00:20:51.977 [90m | [39m[1m[31m^[39m[22m
+
+00:20:51.977 [90m 5 | [39m
+
+00:20:51.977 [90m 6 | [39m[33m.connect-btn[39m [33m{[39m
+
+00:20:51.977
+
+00:20:51.977
+
+00:20:52.001 Error: Command "npm run build" exited with 1
+
+Sep 26, 12:22 AM
+
+Copy
+Robot
+Hey SIXTYSECOND, Quick input needed :
+Ask Question
+Agent will continue working after your reply
+🚨 Error Fix: CSS Syntax Error
+Ada CSS syntax error di App.css. Ada kurung kurawal } yang tidak match di baris 4.
+
+🔧 Fix CSS - Replace src/App.css dengan ini:
+.App {
+  background: linear-gradient(135deg, #0a0a0b 0%, #1a1a1b 100%);
+  color: white;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  background: linear-gradient(135deg, #18a0fb 0%, #7b68ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.logo p {
+  color: #a0a0a0;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.main {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  margin-bottom: 3rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.feature h3 {
   color: #18a0fb;
   margin: 0;
   font-size: 1.2rem;
@@ -35,6 +250,8 @@
   
   .container {
     padding: 1rem;
+  }
+}    padding: 1rem;
   }
 }
 const useAuth = () => {
