@@ -1,18 +1,18 @@
 {
   "accountAssociation": {
-    "token": "REPLACE_WITH_TOKEN_FROM_WARPCAST",
-    "signature": "REPLACE_WITH_SIGNATURE_FROM_WARPCAST"
+    "header": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
+    "payload": "eyJkb21haW4iOiJibG9ja2JyYWluLWZhcmNhc3Rlci1xdWl6LW5xY25xbm9uLXNpeHR5c2Vjb25kcy1wcm9qZWN0cy52ZXJjZWwuYXBwIn0",
+    "signature": "MHhmOWRiZGRkZDA2OTA1NzBkYWM5NjMwZWU0OWI3ZGIzZDk4YzYxMDE3NmJkMzZjN2U2MDVmM2E2MTk5YTk0MDIxMTk0MTMxN2E5NjVhMjNjYTk2NWM3ZTA1YjIzZjQ1ODZlYTBiMjc1OTY0ZTJhM2EyMDY2OTBiYTUxZmE1YWNhNjFi"
   },
-  "miniapp": {
-    "version": "vNext",
-    "name": "BlockBrain Quiz",
-    "iconUrl": "https://YOUR_DOMAIN_HERE.com/icon.svg",
-    "splashImageUrl": "https://YOUR_DOMAIN_HERE.com/splash.svg", 
-    "homeUrl": "https://YOUR_DOMAIN_HERE.com",
-    "webhookUrl": null,
-    "description": "Test your crypto & general knowledge on Farcaster. Daily quests with 3 questions per day, earn XP and compete on the weekly leaderboard!",
-    "theme": {
-      "backgroundColor": "#0a0a0b"
-    }
+  "frame": {
+    "version": "1",
+    "name": "Example Frame",
+    "iconUrl": "https://blockbrain-farcaster-quiz-nqcnqnon-sixtyseconds-projects.vercel.app/icon.png",
+    "homeUrl": "https://blockbrain-farcaster-quiz-nqcnqnon-sixtyseconds-projects.vercel.app",
+    "imageUrl": "https://blockbrain-farcaster-quiz-nqcnqnon-sixtyseconds-projects.vercel.app/image.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://blockbrain-farcaster-quiz-nqcnqnon-sixtyseconds-projects.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://blockbrain-farcaster-quiz-nqcnqnon-sixtyseconds-projects.vercel.app/api/webhook"
   }
 }
