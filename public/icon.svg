@@ -1,25 +1,32 @@
-<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#18a0fb"/>
-      <stop offset="100%" style="stop-color:#7b68ee"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Background Circle -->
-  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)" stroke="#ffffff" stroke-width="8"/>
-  
-  <!-- Brain Emoji Background -->
-  <circle cx="256" cy="200" r="80" fill="rgba(255,255,255,0.2)"/>
-  
-  <!-- Brain Emoji -->
-  <text x="256" y="240" font-family="Arial, sans-serif" font-size="120" text-anchor="middle" fill="#ffffff">🧠</text>
-  
-  <!-- Text -->
-  <text x="256" y="360" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
-        text-anchor="middle" fill="#ffffff">BlockBrain</text>
-  
-  <!-- Subtitle -->
-  <text x="256" y="400" font-family="Arial, sans-serif" font-size="20" 
-        text-anchor="middle" fill="rgba(255,255,255,0.8)">Quiz Game</text>
+<!-- cryptobird-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 120 120"
+     role="img"
+     aria-label="CryptoBirds icon"
+     width="120" height="120"
+     fill="currentColor">
+  <title>CryptoBirds — Icon</title>
+
+  <!-- Circular badge -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="currentColor" stroke-width="4"/>
+
+  <!-- Stylized geometric bird head -->
+  <path d="M36 58
+           C36 45, 50 38, 66 38
+           C80 38, 92 46, 92 60
+           C92 74, 78 82, 64 82
+           C54 82, 46 76, 42 68
+           L36 58 Z" />
+
+  <!-- Beak (triangle) -->
+  <path d="M66 58 L86 64 L66 70 Z" />
+
+  <!-- Eye (small circle) -->
+  <circle cx="58" cy="54" r="3" fill="#fff" />
+  <circle cx="58" cy="54" r="1.2" fill="currentColor" />
+
+  <!-- Pixel/crypto motif: 3 small squares near wing -->
+  <rect x="46" y="66" width="4" height="4" rx="0.6"/>
+  <rect x="52" y="62" width="4" height="4" rx="0.6"/>
+  <rect x="58" y="68" width="4" height="4" rx="0.6"/>
 </svg>
