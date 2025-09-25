@@ -1,18 +1,18 @@
 {
   "accountAssociation": {
-    "token": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
+    "header": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
+    "payload": "eyJkb21haW4iOiJibG9ja2JyYWluLWZhcmNhc3Rlci1xdWl6LnZlcmNlbC5hcHAifQ",
     "signature": "MHg3ZDBlMTliMGIyYzBiYjVmYzM0MDQzNDY3MzY5NmM0OWUwYmY3MmNhNzk1ZjFlZjFiMWE2YzgxNzk3NWM4YmQ4MTVkMDNlOTgwYjZhZDQzOWY5YjJmZTkyODkwZWE0MzA5NDY4NjRlZTk2N2M3MTJhMjc3YWIwY2IwZmUxNWZiOTFj"
   },
-  "miniapp": {
-    "version": "vNext",
+  "frame": {
+    "version": "1",
     "name": "BlockBrain Quiz",
-    "iconUrl": "https://blockbrain-farcaster-quiz.vercel.app/icon.svg",
-    "splashImageUrl": "https://blockbrain-farcaster-quiz.vercel.app/splash.svg",
+    "iconUrl": "https://blockbrain-farcaster-quiz.vercel.app/icon.png",
     "homeUrl": "https://blockbrain-farcaster-quiz.vercel.app",
-    "webhookUrl": null,
-    "description": "Test your crypto & general knowledge on Farcaster. Daily quests with 3 questions per day!",
-    "theme": {
-      "backgroundColor": "#0a0a0b"
-    }
+    "imageUrl": "https://blockbrain-farcaster-quiz.vercel.app/image.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://blockbrain-farcaster-quiz.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://blockbrain-farcaster-quiz.vercel.app/api/webhook"
   }
 }
