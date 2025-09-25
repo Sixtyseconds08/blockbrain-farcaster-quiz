@@ -1,11 +1,25 @@
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#18a0fb"/>
       <stop offset="100%" style="stop-color:#7b68ee"/>
     </linearGradient>
   </defs>
-  <circle cx="256" cy="256" r="240" fill="url(#bg)"/>
-  <text x="256" y="200" font-family="Arial" font-size="120" font-weight="bold" text-anchor="middle" fill="white">🧠</text>
-  <text x="256" y="350" font-family="Arial" font-size="36" font-weight="bold" text-anchor="middle" fill="white">BlockBrain</text>
+  
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)" stroke="#ffffff" stroke-width="8"/>
+  
+  <!-- Brain Emoji Background -->
+  <circle cx="256" cy="200" r="80" fill="rgba(255,255,255,0.2)"/>
+  
+  <!-- Brain Emoji -->
+  <text x="256" y="240" font-family="Arial, sans-serif" font-size="120" text-anchor="middle" fill="#ffffff">🧠</text>
+  
+  <!-- Text -->
+  <text x="256" y="360" font-family="Arial, sans-serif" font-size="36" font-weight="bold" 
+        text-anchor="middle" fill="#ffffff">BlockBrain</text>
+  
+  <!-- Subtitle -->
+  <text x="256" y="400" font-family="Arial, sans-serif" font-size="20" 
+        text-anchor="middle" fill="rgba(255,255,255,0.8)">Quiz Game</text>
 </svg>
