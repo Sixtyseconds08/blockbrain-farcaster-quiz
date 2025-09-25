@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "token": "REPLACE_WITH_TOKEN_FROM_WARPCAST",
+    "signature": "REPLACE_WITH_SIGNATURE_FROM_WARPCAST"
+  },
+  "miniapp": {
+    "version": "vNext",
+    "name": "BlockBrain Quiz",
+    "iconUrl": "https://YOUR_DOMAIN_HERE.com/icon.svg",
+    "splashImageUrl": "https://YOUR_DOMAIN_HERE.com/splash.svg", 
+    "homeUrl": "https://YOUR_DOMAIN_HERE.com",
+    "webhookUrl": null,
+    "description": "Test your crypto & general knowledge on Farcaster. Daily quests with 3 questions per day, earn XP and compete on the weekly leaderboard!",
+    "theme": {
+      "backgroundColor": "#0a0a0b"
+    }
+  }
+}
