@@ -1,18 +1,18 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImNc3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
-    "payload": "eyJkb21haW4iOiJibG9ja2JyYWluLWZhcmNhc3Rlci1xdWl6LnZlcmNlbC5hcHAifQ",
-    "signature": "MHg3ZDBlMTliMGIyYzBiYjVmYzM0MDQzNDY3MzY5NmM0OWUwYmY3MmNhNzk1ZjFlZjFiMWE2YzgxNzk3NWM4YmQ4MTVkMDNlOTgwYjZhZDQzOWY5YjJmZTkyODkwZWE0MzA5NDY4NjRlZTk2N2M3MTJhMjc3YWIwY2IwZmUxNWZiOTFj"
+    "header": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
+    "payload": "eyJkb21haW4iOiJibG9ja2JyYWluLWZhcmNhc3Rlci1xdWl6LXRlbi52ZXJjZWwuYXBwIn0",
+    "signature": "MHgxZWJiZDVjYTRmNTNkNzQ3MWZhNTRiOWY2ODhjNjMwOTliMDc2NTNkNjgwYWE2ZjU5Mzk1NjQ1MTJmYTliNDkyN2ViOTg2Mzc3NzdiNWY0MTkwN2NiZjAzMjE4NWY0MmYzNmNlNjRlZDY2ZWVmZGM2NTM1ZmEyYjYzODM0N2IzZTFi"
   },
   "frame": {
     "version": "1",
-    "name": "BlockBrain Quiz",
-    "iconUrl": "https://blockbrain-farcaster-quiz.vercel.app/icon.png",
-    "homeUrl": "https://blockbrain-farcaster-quiz.vercel.app",
-    "imageUrl": "https://blockbrain-farcaster-quiz.vercel.app/image.png",
+    "name": "Example Frame",
+    "iconUrl": "https://blockbrain-farcaster-quiz-ten.vercel.app/icon.png",
+    "homeUrl": "https://blockbrain-farcaster-quiz-ten.vercel.app",
+    "imageUrl": "https://blockbrain-farcaster-quiz-ten.vercel.app/image.png",
     "buttonTitle": "Check this out",
-    "splashImageUrl": "https://blockbrain-farcaster-quiz.vercel.app/splash.png",
+    "splashImageUrl": "https://blockbrain-farcaster-quiz-ten.vercel.app/splash.png",
     "splashBackgroundColor": "#eeccff",
-    "webhookUrl": "https://blockbrain-farcaster-quiz.vercel.app/api/webhook"
+    "webhookUrl": "https://blockbrain-farcaster-quiz-ten.vercel.app/api/webhook"
   }
 }
