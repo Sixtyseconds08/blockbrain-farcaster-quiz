@@ -1,6 +1,52 @@
 <svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#0a0a0b"/>
-  <text x="600" y="250" font-family="Arial" font-size="80" font-weight="bold" text-anchor="middle" fill="#18a0fb">🧠 BlockBrain</text>
-  <text x="600" y="350" font-family="Arial" font-size="32" text-anchor="middle" fill="white">Quiz Game on Farcaster</text>
-  <text x="600" y="450" font-family="Arial" font-size="24" text-anchor="middle" fill="#a0a0a0">Loading your knowledge challenge...</text>
+  <defs>
+    <linearGradient id="splashBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0b"/>
+      <stop offset="50%" style="stop-color:#1a1a1b"/>
+      <stop offset="100%" style="stop-color:#0a0a0b"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#18a0fb"/>
+      <stop offset="100%" style="stop-color:#7b68ee"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#splashBg)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="150" r="60" fill="#18a0fb" opacity="0.1"/>
+  <circle cx="1000" cy="480" r="80" fill="#7b68ee" opacity="0.1"/>
+  
+  <!-- Main Content -->
+  <g transform="translate(600, 315)">
+    <!-- Brain Icon -->
+    <circle cx="0" cy="-60" r="50" fill="rgba(24,160,251,0.2)"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="80" text-anchor="middle" fill="#18a0fb">🧠</text>
+    
+    <!-- Title -->
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="60" font-weight="bold" 
+          text-anchor="middle" fill="url(#textGradient)">BlockBrain</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="24" 
+          text-anchor="middle" fill="rgba(255,255,255,0.8)">Quiz Game on Farcaster</text>
+    
+    <!-- Loading Text -->
+    <text x="0" y="120" font-family="Arial, sans-serif" font-size="18" 
+          text-anchor="middle" fill="#18a0fb">Loading your knowledge challenge...</text>
+  </g>
+  
+  <!-- Loading Animation -->
+  <g transform="translate(600, 500)">
+    <circle cx="-20" cy="0" r="4" fill="#18a0fb">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="0s"/>
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#18a0fb">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="20" cy="0" r="4" fill="#18a0fb">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+  </g>
 </svg>
