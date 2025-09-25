@@ -1,146 +1,96 @@
 .App {
-  background: #0a0a0b !important;
-  color: white !important;
+  background: linear-gradient(135deg, #0a0a0b 0%, #1a1a1b 100%);
+  color: white;
   min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 1rem;
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .header {
   text-align: center;
-  margin-bottom: 2rem;
-  background: rgba(24, 160, 251, 0.1);
-  padding: 2rem;
-  border-radius: 12px;
-  border: 2px solid #18a0fb;
+  margin-bottom: 3rem;
 }
 
 .logo h1 {
-  font-size: 2.5rem;
-  color: #18a0fb !important;
-  margin: 0 0 1rem 0;
-  text-shadow: 0 0 10px rgba(24, 160, 251, 0.5);
+  font-size: 3rem;
+  background: linear-gradient(135deg, #18a0fb 0%, #7b68ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
 }
 
 .logo p {
-  color: #ffffff !important;
+  color: #a0a0a0;
   font-size: 1.2rem;
-  margin: 0;
-  opacity: 0.9;
+  margin: 0.5rem 0 0 0;
 }
 
 .main {
   text-align: center;
 }
 
-.hero {
-  margin-bottom: 3rem;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
 .hero h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #ffffff !important;
+  color: white;
 }
 
 .hero p {
-  font-size: 1.1rem;
-  color: #a0a0a0 !important;
-  margin: 0;
+  font-size: 1.2rem;
+  color: #a0a0a0;
+  margin-bottom: 3rem;
 }
 
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  gap: 2rem;
   margin-bottom: 3rem;
-}
-
-.feature {
-  background: rgba(255, 255, 255, 0.08) !important;
-  padding: 2rem;
-  border-radius: 16px;
-  border: 2px solid rgba(24, 160, 251, 0.3);
-  text-align: center;
-}
-
-.feature span {
-  font-size: 2.5rem;
-  display: block;
-  margin-bottom: 1rem;
-}
+  }
 
 .feature h3 {
-  color: #18a0fb !important;
+  color: #18a0fb;
   margin: 0;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .connect-btn {
-  background: linear-gradient(135deg, #18a0fb 0%, #1e40af 100%) !important;
-  color: white !important;
+  background: linear-gradient(135deg, #18a0fb 0%, #1e40af 100%);
+  color: white;
   border: none;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
   font-size: 1.2rem;
   font-weight: 600;
   border-radius: 12px;
   cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: 0 4px 15px rgba(24, 160, 251, 0.3);
+  transition: transform 0.2s ease;
 }
 
 .connect-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(24, 160, 251, 0.4);
 }
 
-/* Emergency Fallback Styles */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 !important;
-  background: #0a0a0b !important;
-  color: white !important;
-}
-
-/* Mobile Specific */
 @media (max-width: 768px) {
-  .App {
-    padding: 0.5rem;
-  }
-  
   .logo h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   
   .hero h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   
   .features {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   
-  .feature {
-    padding: 1.5rem;
-  }
-  
-  .connect-btn {
-    padding: 1rem 2rem;
-    font-size: 1rem;
+  .container {
+    padding: 1rem;
   }
 }
