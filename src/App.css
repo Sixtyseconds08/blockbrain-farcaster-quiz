@@ -1,40 +1,42 @@
-Home
+  color: #18a0fb;
+  margin: 0;
+  font-size: 1.2rem;
+}
 
-73aa755e-2caf-4b3c-bf90-056b15a543f7
+.connect-btn {
+  background: linear-gradient(135deg, #18a0fb 0%, #1e40af 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
 
-right arrow
-Buy Credits
+.connect-btn:hover {
+  transform: translateY(-2px);
+}
 
-
-User Avatar
-
-info
-
-code
-Code
-
-preview
-Preview
-
-Deploy
-Deploy
-Robot
-Hey SIXTYSECOND, Quick input needed :
-📁 File-File Berikutnya:
-📁 File 6: src/App.js
-import React, { useState, useEffect, useContext, createContext } from 'react';
-import './App.css';
-import { BrowserRouter, Routes, Route, Navigate, useParams } from 'react-router-dom';
-import axios from 'axios';
-import { Timer, Trophy, Users, Brain, Coins, LogOut, Crown, Calendar } from 'lucide-react';
-import { sdk } from '@farcaster/miniapp-sdk';
-
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const API = `${BACKEND_URL}/api`;
-
-// Auth Context
-const AuthContext = createContext(null);
-
+@media (max-width: 768px) {
+  .logo h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+}
 const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) {
