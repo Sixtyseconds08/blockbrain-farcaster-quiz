@@ -2,14 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/icon.svg" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#0a0a0b" />
-    <meta name="description" content="Test your crypto & general knowledge on Farcaster" />
-    <title>BlockBrain Quiz - Farcaster Mini App</title>
+    <meta name="description" content="BlockBrain - Quiz Game on Farcaster" />
+    <title>BlockBrain Quiz</title>
+    <style>
+      /* Emergency Fallback CSS */
+      body {
+        margin: 0;
+        background: #0a0a0b !important;
+        color: white !important;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+      
+      #root {
+        min-height: 100vh;
+        background: #0a0a0b;
+      }
+      
+      .emergency-fallback {
+        display: none;
+        text-align: center;
+        padding: 2rem;
+        background: #18a0fb;
+        color: white;
+        margin: 2rem;
+        border-radius: 12px;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Emergency fallback if React fails -->
+      <div class="emergency-fallback" id="emergency">
+        <h1>🧠 BlockBrain</h1>
+        <p>Quiz Game on Farcaster</p>
+        <p>Loading...</p>
+      </div>
+    </div>
+    
+    <script>
+      // Show emergency fallback if React doesn't load in 3 seconds
+      setTimeout(function() {
+        if (!window.React) {
+          document.getElementById('emergency').style.display = 'block';
+        }
+      }, 3000);
+    </script>
   </body>
 </html>
